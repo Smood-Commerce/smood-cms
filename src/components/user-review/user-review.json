@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_user_review_user_reviews",
+  "info": {
+    "displayName": "UserReview"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "mediaSize": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg"
+      ]
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    },
+    "Review": {
+      "displayName": "Review",
+      "type": "component",
+      "repeatable": true,
+      "component": "review.review"
+    }
+  }
+}

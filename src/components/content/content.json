@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_content_contents",
+  "info": {
+    "displayName": "Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mediaType": {
+      "type": "enumeration",
+      "enum": [
+        "image",
+        "video"
+      ]
+    },
+    "mediaSize": {
+      "type": "enumeration",
+      "enum": [
+        "sm",
+        "md",
+        "lg"
+      ]
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark"
+      ]
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
