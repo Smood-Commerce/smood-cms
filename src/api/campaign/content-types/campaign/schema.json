@@ -29,6 +29,9 @@
       "type": "component",
       "repeatable": false,
       "component": "user-review.user-review"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
