@@ -1,7 +1,8 @@
 {
   "collectionName": "components_content_contents",
   "info": {
-    "displayName": "Content"
+    "displayName": "Content",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,14 +13,15 @@
       "type": "string"
     },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "mediaType": {
       "type": "enumeration",

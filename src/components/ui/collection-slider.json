@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ui_collection_sliders",
+  "info": {
+    "displayName": "CollectionSlider"
+  },
+  "options": {},
+  "attributes": {
+    "Collection": {
+      "displayName": "Collection",
+      "type": "component",
+      "repeatable": true,
+      "component": "utils.collection"
+    }
+  }
+}

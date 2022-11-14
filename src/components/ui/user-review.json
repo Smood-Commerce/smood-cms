@@ -1,7 +1,8 @@
 {
   "collectionName": "components_user_review_user_reviews",
   "info": {
-    "displayName": "UserReview"
+    "displayName": "UserReview",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -30,7 +31,7 @@
       "displayName": "Review",
       "type": "component",
       "repeatable": true,
-      "component": "review.review"
+      "component": "utils.review"
     }
   }
 }

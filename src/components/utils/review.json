@@ -1,19 +1,21 @@
 {
   "collectionName": "components_review_reviews",
   "info": {
-    "displayName": "Review"
+    "displayName": "Review",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "product": {
       "type": "string"

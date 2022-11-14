@@ -22,13 +22,13 @@
       "displayName": "Content",
       "type": "component",
       "repeatable": true,
-      "component": "content.content"
+      "component": "ui.content"
     },
     "UserReview": {
       "displayName": "UserReview",
       "type": "component",
       "repeatable": false,
-      "component": "user-review.user-review"
+      "component": "ui.user-review"
     },
     "description": {
       "type": "string"

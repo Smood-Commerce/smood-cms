@@ -18,6 +18,12 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  placeholder: {
+    enabled: true,
+    config: {
+      size: 10,
+    },
+  },
   "strapi-plugin-populate-deep": {
     config: {
       defaultDepth: 3, // Default is 5
